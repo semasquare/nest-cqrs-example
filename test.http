@@ -1,0 +1,10 @@
+### Get all heroes
+GET http://localhost:3000/hero
+
+### Kill Dragon
+POST http://localhost:3000/hero/1234/kill
+content-type: application/json
+
+{
+    "dragonId": 1
+}
