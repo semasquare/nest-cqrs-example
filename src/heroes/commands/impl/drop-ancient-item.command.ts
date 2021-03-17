@@ -1,5 +1,5 @@
 export class DropAncientItemCommand {
-    constructor(
+    public constructor(
         public readonly heroId: string,
         public readonly itemId: string,
     ) {}

@@ -1,5 +1,5 @@
 export class HeroFoundItemEvent {
-    constructor(
+    public constructor(
         public readonly heroId: string,
         public readonly itemId: string,
     ) {}

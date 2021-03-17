@@ -1,5 +1,5 @@
 export class KillDragonCommand {
-    constructor(
+    public constructor(
         public readonly heroId: string,
         public readonly dragonId: string,
     ) {}
